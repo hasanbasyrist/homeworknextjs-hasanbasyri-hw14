@@ -2,7 +2,7 @@ import { VStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import Books from "../components/Books";
 import { getAllBooks } from "../modules/fetch";
-import { prisma } from "../util/prisma";
+import { prisma } from "../utils/prisma";
 
 // server side props ( fetch in server)
 
